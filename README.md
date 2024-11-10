@@ -23,8 +23,33 @@ After installing the application, start by executing node index.js in terminal.
 ## Contributing
 We welcome contributions to this project! To contribute, please follow these guidelines:
 
-## Tests
 1. **Fork the repository**:
+   Click on the "Fork" button at the top right corner of the repository page to create your own copy of the project.
+
+2. **Clone your fork**:
+   Open your terminal and clone your forked repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-forked-repo-name.git
+
+## Tests
+To ensure the application works as expected, you can run the tests using the following steps:
+
+1. **Install dependencies**:
+   Make sure you have installed all necessary dependencies by running:
+   ```bash
+   npm install
+
+## Repository Link
+https://github.com/UnknownKonflikt/TalentPoolSearch
+
+##  Deployed application on Render
+
+
+##  Sample image
+
+   
+
 
 ##Questions
-2. **Clone your fork**:
+https://github.com/UnknownKonflikt
+
