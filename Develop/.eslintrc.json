@@ -1,0 +1,21 @@
+{
+    "extends": [
+      "plugin:@typescript-eslint/recommended-type-checked", // or "plugin:@typescript-eslint/strict-type-checked"
+      "plugin:@typescript-eslint/stylistic-type-checked" // This one is optional
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": ["./tsconfig.json", "./tsconfig.node.json"],
+        "tsconfigRootDir": "C:/Users/unkno/bootcamp/REPO/TalentPoolSearch/Develop"
+      },
+    "rules": {
+      // You can add custom rules here if you want
+    }
+  }
